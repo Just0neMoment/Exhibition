@@ -1,0 +1,48 @@
+:root {
+  --ti-cursor-color: dodgerblue;
+}
+
+.home {
+  background-color: #0b0b0b;
+  color: #e4e4e4;
+}
+
+.pg-page {
+  padding-top: 53px;
+}
+
+.homeContent {
+  padding: 40px 200px;
+}
+
+.homeTitle {
+  text-align: center;
+  align-items: center;
+}
+
+.stars {
+  position: absolute;
+  top: 100px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.star {
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  background: white;
+  border-radius: 50%;
+  animation: twinkling 1s infinite;
+}
+
+@keyframes twinkling {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
