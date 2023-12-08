@@ -12,6 +12,10 @@
 }
 
 .homeContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding: 40px 200px;
 }
 
@@ -45,4 +49,8 @@
   50% {
     opacity: 0;
   }
+}
+
+.home3dContainer {
+  margin-top: 50px;
 }
