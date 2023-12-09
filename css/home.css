@@ -51,6 +51,7 @@
   }
 }
 
-.home3dContainer {
-  margin-top: 50px;
+#home3dContent > canvas {
+  position: relative;
+  bottom: 100px;
 }
